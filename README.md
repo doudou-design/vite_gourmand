@@ -23,7 +23,7 @@ Le site permet de gérer les menus et de les afficher aux visiteurs.
 - CSS
 - PHP
 - MySQL
-- JavaScript 
+
 
 ---
 
