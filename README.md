@@ -56,4 +56,4 @@ Champs :
 
 ## Auteur
 
-Projet réalisé dans le cadre d’un examen développeur web.
+Amadou Samba Ndiaye
