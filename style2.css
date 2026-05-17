@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-color: rgb(207, 224, 207);
+      font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: rgb(0, 117, 128);
+    text-align: center;
+    height: 150px;
+    line-height: 2.4;
+}
+
+header h1{
+    color: white;
+}nav a{
+     background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover{
+    transform: scale(1.2);
+    background-color: rgb(40, 36, 36);
+    color: white;
+}
+button{
+        background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out; 
+}
+button:hover{
+        transform: scale(1.2);
+    background-color: rgb(40, 36, 36);
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 40px auto;
+}
+/* MENU */
+.menu{
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(118, 118, 118, 0.669);
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+/* IMAGE DANS LA CARD */
+.menu img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+   box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.5);
+}
+.menu p {
+    border: 0.4px solid black;
+    padding: 5px;
+}
+
+.popup{
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* 👈 fond noir transparent */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    
+}
+#menu-noel,#menu-classique,#menu-paques{
+    display: none;
+    width: 600px;
+    height: 450px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    z-index: 3;
+}
+.popup img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+footer {
+  background: rgb(0, 117, 128);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+footer a{
+        background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+     transition: 0.5s ease-in-out;
+}
+footer a:hover{
+       transform: scale(1.2);
+    background-color: rgb(40, 36, 36);
+    color: white;
+}
